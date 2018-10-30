@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context="com.example.guoxiaowen.login.MainActivity">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="95dp"
+        android:layout_height="97dp"
+        android:src="@drawable/plane" />
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名：" />
+
+        <EditText
+            android:id="@+id/main_name"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码：" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/main_password"
+            android:layout_width="244dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+
+    <Button
+
+        android:background="@drawable/button_bg"
+        android:id="@+id/main_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="点击登录" />
+
+</LinearLayout>
