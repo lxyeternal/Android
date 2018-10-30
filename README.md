@@ -7,8 +7,9 @@
 
 很漂亮的一个前端页面
 
-<img width="150" height="150" src="https://github.com/wenboi/Android/raw/master/Login/image/1.png"/>
-![image](https://github.com/wenboi/Android/raw/master/Login/image/2.png)
-![image](https://github.com/wenboi/Android/raw/master/Login/image/3.png)
-![image](https://github.com/wenboi/Android/raw/master/Login/image/4.png)
+<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/1.png"/>
+<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/2.png"/>
+<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/3.png"/>
+<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/4.png"/>
+
 
