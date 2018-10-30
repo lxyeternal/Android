@@ -7,5 +7,5 @@
 
 很漂亮的一个前端页面
 
-![image](https://github.com/wenboi/Android/Login/raw/master/image/1.png)
+![image](https://github.com/wenboi/Android/raw/master/Login/image/1.png)
 
