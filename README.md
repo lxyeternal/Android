@@ -7,10 +7,10 @@
 
 很漂亮的一个前端页面
 <div align="center">
-<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/1.png"/>
-<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/2.png"/>
-<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/3.png"/>
-<img width="250" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/4.png"/>
+<img width="220" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/1.png"/>
+<img width="220" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/2.png"/>
+<img width="220" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/3.png"/>
+<img width="220" height="400" src="https://github.com/wenboi/Android/raw/master/Login/image/4.png"/>
 
 </div>
 
