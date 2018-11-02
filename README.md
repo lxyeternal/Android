@@ -17,3 +17,7 @@
 <img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Login/image/3.png"/>
 <img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Login/image/4.png"/>
 </div>
+
+## Carousel-picture
+
+今天需要在主页写一个手机轮播图，这个demo就是的，自己找的，完美运行，在此分享。
