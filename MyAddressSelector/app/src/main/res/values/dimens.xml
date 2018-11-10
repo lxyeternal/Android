@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="side_letter_bar_letter_size">12sp</dimen>
+    <dimen name="side_letter_bar_width">36dp</dimen>
+    <dimen name="city_text_size">16sp</dimen>
+
+    <dimen name="layout_generic_padding_huge">20dp</dimen>
+    <dimen name="layout_generic_padding_lager">10dp</dimen>
+    <dimen name="layout_generic_padding_normal">8dp</dimen>
+    <dimen name="layout_generic_padding_small">6dp</dimen>
+    <dimen name="layout_generic_padding_thin">3dp</dimen>
+
+    <dimen name="layout_line_spacing">3dp</dimen>
+
+    <dimen name="layout_height_input">24dp</dimen>
+    <dimen name="layout_height_button">40dp</dimen>
+    <dimen name="layout_height_item">38dp</dimen>
+    <dimen name="layout_height_cartbtn">40dp</dimen>
+    <dimen name="layout_height_titlebar">56dp</dimen>
+    <dimen name="layout_height_setting_header">90dp</dimen>
+
+    <dimen name="layout_avatar_lager">70dp</dimen>
+    <dimen name="layout_avatar_huge">80dp</dimen>
+    <dimen name="layout_avatar_small">40dp</dimen>
+
+    <dimen name="text_size_huge">20sp</dimen>
+    <dimen name="text_size_lager">18sp</dimen>
+    <dimen name="text_size_thin_lager">17sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_big">15sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_thin_small">13sp</dimen>
+    <dimen name="text_size_thin">12sp</dimen>
+    <dimen name="text_size_sthin">11sp</dimen>
+
+    <dimen name="text_size_cartbtn">@dimen/text_size_small</dimen>
+    <dimen name="text_size_input">@dimen/text_size_small</dimen>
+    <dimen name="text_size_button">@dimen/text_size_normal</dimen>
+    <dimen name="text_size_title_lager">@dimen/text_size_lager</dimen>
+    <dimen name="text_size_title_normal">@dimen/text_size_normal</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

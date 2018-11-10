@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0e0e0">
+
+    <TextView
+        android:id="@+id/address_save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/alice_blue"
+        android:gravity="center"
+        android:text="保存"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/sc_white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人"
+                android:textColor="#333333"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/consignee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:hint="@string/address_name"
+                android:textColorHint="@color/gray"
+                android:textSize="16sp"
+            />
+        </LinearLayout>
+
+        <!--<View-->
+            <!--style="@style/DivideLineStyle"/>-->
+
+
+        <myaddressselector.myaddressselector.view.SettingItemView
+            android:id="@+id/siv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="所在地区"/>
+
+        <!--<View-->
+            <!--style="@style/DivideLineStyle"/>-->
+
+
+        <EditText
+            android:id="@+id/details_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:gravity="top"
+            android:hint="@string/address_detail_name"
+            android:lineSpacingExtra="1.5px"
+            android:maxLines="3"
+            android:minLines="2"
+            android:scrollbars="none"
+            android:textColorHint="@color/gray"
+            android:textSize="12sp"
+        />
+
+        <!--<View-->
+            <!--style="@style/DivideLineStyle"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邮编"
+                android:textColor="#333333"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/postcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@null"
+                android:hint="@string/address_postcode"
+                android:inputType="number"
+                android:maxLength="6"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+            />
+        </LinearLayout>
+
+        <!--<View-->
+            <!--style="@style/DivideLineStyle"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:textColor="#333333"
+                android:textSize="15sp"/>
+
+            <EditText
+                android:id="@+id/phoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:inputType="number"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+            />
+        </LinearLayout>
+
+        <!--<View-->
+            <!--style="@style/DivideLineStyle"/>-->
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bottomframeboder">
+
+        <TableRow android:layout_height="61dp">
+
+            <ImageButton
+                android:id="@+id/getback"
+                android:layout_width="35dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/getback_left" />
+
+            <TextView
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="3dp"
+                android:paddingTop="5dp"
+                android:text="@string/send"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp">
+
+        <TableRow
+            android:layout_marginBottom="5dp"
+            android:id="@+id/choose_company"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="52dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/company_main" />
+
+            <TextView
+                android:id="@+id/choose_company_edit"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="4dp"
+                android:text="@string/choose_company"
+                android:textColor="@color/gray"
+                android:textSize="16dp" />
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/getback_right" />
+
+        </TableRow>
+
+
+        <LinearLayout
+            android:gravity="center_vertical|left"
+            android:paddingLeft="20dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_item"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收货人"
+                android:textColor="#333333"
+                android:textSize="18dp"/>
+
+            <EditText
+                android:id="@+id/consignee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:hint="@string/address_name"
+                android:textColorHint="@color/gray"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <myaddressselector.myaddressselector.view.SettingItemView
+                android:id="@+id/siv_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="所在地区" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:paddingLeft="20dp"
+            android:id="@+id/details_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center_vertical|left"
+            android:hint="@string/address_detail_name"
+            android:lineSpacingExtra="1.5px"
+            android:maxLines="3"
+            android:minLines="2"
+            android:scrollbars="none"
+            android:textColorHint="@color/gray"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:paddingLeft="20dp"
+            android:gravity="center_vertical|left"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/layout_height_item"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="邮编"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/postcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:background="@null"
+                android:hint="@string/address_postcode"
+                android:inputType="number"
+                android:maxLength="6"
+                android:singleLine="true"
+                android:textColorHint="@color/gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical|left"
+            android:paddingLeft="20dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height_item"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="联系电话"
+                android:textColor="#333333"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:id="@+id/phoneNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@null"
+                android:inputType="number"
+                android:maxLength="12"
+                android:singleLine="true"
+                android:textColorHint="@color/gray"
+                />
+        </LinearLayout>
+
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/object"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="文件 "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/getback_right" />
+
+        </TableRow>
+    </TableLayout>
+
+    <!--<TableLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="118dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginBottom="44dp"-->
+        <!--android:background="@color/white">-->
+
+        <!--<TableRow>-->
+
+            <!--<TextView-->
+                <!--android:layout_marginLeft="68dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/jijian_menthod"-->
+                <!--android:textColor="@color/gray"-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_marginLeft="60dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:gravity="center"-->
+                <!--android:text="@string/kuaidiyuan_shoujian"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:textSize="16dp" />-->
+
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_height="38dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageButton-->
+                <!--android:id="@+id/id_leavemessage"-->
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:layout_marginLeft="80dp"-->
+                <!--android:background="@drawable/kuaidiyuan" />-->
+
+            <!--<ImageButton-->
+                <!--android:layout_width="51dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_marginLeft="80dp"-->
+                <!--android:layout_marginRight="25dp"-->
+                <!--android:background="@drawable/yuyue" />-->
+
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+                <!--android:layout_marginLeft="80dp"-->
+                <!--android:text="@string/message_remark"-->
+                <!--android:textColor="@color/gray"-->
+                <!--android:textSize="16dp" />-->
+
+            <!--<TextView-->
+                <!--android:layout_marginLeft="85dp"-->
+                <!--android:text="@string/yuyue_jijian"-->
+                <!--android:textColor="@color/gray"-->
+                <!--android:textSize="16dp" />-->
+
+        <!--</TableRow>-->
+
+    <!--</TableLayout>-->
+
+    <!--<LinearLayout-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<FrameLayout-->
+            <!--android:id="@+id/content_frame"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/white"-->
+            <!--android:clickable="true">-->
+
+        <!--</FrameLayout>-->
+
+
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="305dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_cc"
+            android:gravity="center"
+            android:text="@string/agree_protocol"
+            android:textSize="16dp" />
+
+        <Button
+            android:onClick="onClick"
+            android:clickable="true"
+            android:id="@+id/ack_information"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="0dp"
+            android:background="#FF589983"
+            android:text="@string/upload" />
+
+
+    </LinearLayout>
+</RelativeLayout>

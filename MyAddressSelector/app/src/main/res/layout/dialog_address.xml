@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/sc_white"
+              android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="取消"
+            android:textColor="@color/text_sub"
+            android:textSize="@dimen/text_size_small"
+        />
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:text="确定"
+            android:textColor="@color/text_sub"
+            android:textSize="@dimen/text_size_small"
+        />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <myaddressselector.myaddressselector.view.WheelView
+            android:id="@+id/id_province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:itemNumber="5"
+            app:lineColor="#cccccc"
+            app:lineHeight="1dp"
+            app:maskHight="30dp"
+            app:noEmpty="true"
+            app:normalTextColor="#777"
+            app:normalTextSize="16sp"
+            app:selectedTextColor="#ff000000"
+            app:selectedTextSize="22sp"
+            app:unitHight="40dp"/>
+
+        <myaddressselector.myaddressselector.view.WheelView
+            android:id="@+id/id_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:itemNumber="5"
+            app:lineColor="#cccccc"
+            app:lineHeight="1dp"
+            app:maskHight="30dp"
+            app:noEmpty="true"
+            app:normalTextColor="#777"
+            app:normalTextSize="16sp"
+            app:selectedTextColor="#ff000000"
+            app:selectedTextSize="22sp"
+            app:unitHight="40dp"/>
+
+        <myaddressselector.myaddressselector.view.WheelView
+            android:id="@+id/id_district"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:itemNumber="5"
+            app:lineColor="#cccccc"
+            app:lineHeight="1dp"
+            app:maskHight="30dp"
+            app:noEmpty="true"
+            app:normalTextColor="#777"
+            app:normalTextSize="16sp"
+            app:selectedTextColor="#ff000000"
+            app:selectedTextSize="22sp"
+            app:unitHight="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>

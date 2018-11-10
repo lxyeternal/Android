@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/settingItem"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_item"
+        android:clickable="true"
+        android:paddingLeft="@dimen/layout_generic_padding_huge"
+        android:paddingRight="@dimen/layout_generic_padding_huge">
+
+        <ImageView
+            android:id="@+id/ivIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:clickable="false"
+            android:paddingRight="@dimen/layout_generic_padding_lager"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/ivArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="24dp"
+            android:background="@null"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/right_arrow" />
+
+        <TextView
+            android:id="@+id/tvTip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/layout_generic_padding_normal"
+            android:layout_toLeftOf="@id/ivArrow"
+            android:clickable="false"
+            android:maxLength="12"
+            android:singleLine="true"
+            android:text="0"
+            android:textColor="@color/text_deepgray"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/tvSettingText"
+            style="@style/SettingItemStyle"
+            android:layout_width="332dp"
+            android:layout_marginRight="13dp"
+            android:layout_toLeftOf="@id/tvTip"
+            android:layout_toRightOf="@+id/ivIcon"
+            android:clickable="false"
+            android:text="昵称"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+</LinearLayout>
