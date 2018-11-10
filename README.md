@@ -27,3 +27,13 @@
 
 这个Demo是实现点击列表选择的，感觉还是很可以的
  
+ 
+## MyAddressSelector
+
+该项目是实现类似于京东的地址三联选择器，点击地址然后在页面的底部弹出三联的选择列表，然后进行选择，选择完毕之后默认的填写邮编。
+
+#### 使用方式
+
+下载解压之后将里面的image文件夹删除（截图文件），然后直接只用即可。
+
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/MyAddressSelector/image/屏幕快照 2018-11-10 17.41.png"/>
