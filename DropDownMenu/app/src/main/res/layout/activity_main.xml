@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F9F9F9"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/edit_query"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="7"
+                    android:background="@drawable/shape"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:hint="请输入....."
+                    android:imeOptions="actionSearch"
+                    android:inputType="text"
+                    android:paddingRight="10dp"
+                    android:singleLine="true"
+                    android:textColor="#4e4d4d"
+                    android:textColorHint="#969595"
+                    android:textCursorDrawable="@null"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="搜索"
+                    android:textColor="#000000"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#D8D8D8"></View>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff">
+
+        <LinearLayout
+            android:id="@+id/sex"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/sex_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="性别"
+                android:textColor="#565656"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nation_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="民族"
+                android:textColor="#565656"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/country"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/country_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="国籍"
+                android:textColor="#565656"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/culture"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/culture_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="文化程度"
+                android:textColor="#565656"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#efefef"
+            android:clickable="true"></FrameLayout>
+
+        
+
+    </RelativeLayout>
+</LinearLayout>
