@@ -36,7 +36,7 @@
 
 下载解压之后将里面的image文件夹删除（截图文件），然后直接只用即可。
 
-<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/MyAddressSelector/image/屏幕快照 2018-11-10 17.41.52.png"/>
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/MyAddressSelector/image/1.png"/>
 
 
 ## DropDownMenu
