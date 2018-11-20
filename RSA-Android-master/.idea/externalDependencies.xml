@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="CVS" />
+    <plugin id="com.android.tools.apk" />
+    <plugin id="com.android.tools.games" />
+    <plugin id="com.android.tools.ndk" />
+    <plugin id="com.google.urlassistant" />
+    <plugin id="com.intellij" />
+    <plugin id="com.intellij.copyright" />
+    <plugin id="com.intellij.properties" />
+    <plugin id="org.editorconfig.editorconfigjetbrains" />
+    <plugin id="org.jetbrains.android" />
+    <plugin id="org.jetbrains.plugins.gradle" />
+    <plugin id="org.jetbrains.settingsRepository" />
+  </component>
+</project>
