@@ -72,3 +72,14 @@
 该demo是集成一个加密模块，包括RSA和base64加密，以及签名机制
 
 
+
+## QRCodeCreate
+
+该demo是集成一个个性化二维码生成以及识别的模块，其主要的亮点是实现全背景图以及标题。使用图片作为二维码的背景图增加二维码的识别度，同时二维码的上方以及下方均有文字的标识。
+<div align = "center">
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/QRCodeCreate/image/2.png"/>
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/QRCodeCreate/image/3.png"/>
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/QRCodeCreate/image/1.png"/>
+</div>
+
+

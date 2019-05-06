@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    testCompile 'junit:junit:4.12'
+}
+
+ext {
+    bintrayRepo = 'maven'////bintray上的仓库名，一般为maven
+    bintrayName = 'QRCodeStyle'//bintray上的项目名
+
+    publishedGroupId = 'com.wjj.easy'//JCenter的GroupId
+    artifact = 'qrcodestyle'//JCenter的ArtifactId
+
+    siteUrl = 'https://github.com/wu928320442/QRCodeStyle.git'
+    gitUrl = 'https://github.com/wu928320442/QRCodeStyle.git'
+
+    libraryVersion = '1.0.0'//版本号
+    libraryName = 'qrcodestyle'//项目名字，没什么用
+    libraryDescription = 'A very simple and easy to use qr code style generation library'//项目描述，没什么用
+
+    //开发者信息
+    developerId = 'juju'
+    developerName = 'juju'
+    developerEmail = 'wujiajun311@gmail.com'
+
+    //以上所有信息自行修改，以下不变
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+//apply from:'https://cdn.rawgit.com/Jude95/JCenter/master/install.gradle'
+//apply from:'https://cdn.rawgit.com/Jude95/JCenter/master/bintray.gradle'
