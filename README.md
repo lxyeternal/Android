@@ -83,3 +83,19 @@
 </div>
 
 
+## Logistic-Hundun
+
+该demo是收集的一个混沌加密的测试程序，主要包括置乱，j解密，噪声，直方图等功能，用户指定参数然后进行置乱。
+图1：首页，图2：置乱，图3：解密，图4：噪声，图5/6/7均为直方图。
+<div align = "center">
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Logistic-Hundun/image/1.png"/>
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Logistic-Hundun/image/2.png"/>
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Logistic-Hundun/image/3.png"/>
+</div>
+<div align = "center">
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Logistic-Hundun/image/4.png"/>
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Logistic-Hundun/image/5.png"/>
+<img width="260" height="450" src="https://github.com/wenboi/Android/raw/master/Logistic-Hundun/image/6.png"/>
+</div>
+
+
