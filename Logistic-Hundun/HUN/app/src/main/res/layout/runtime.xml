@@ -68,6 +68,27 @@
 	    >
 
 		<Button
+			android:paddingRight="10dp"
+			android:id="@+id/choose"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="1dp"
+			android:background="@drawable/shape2"
+			android:text="选择"
+			android:textColor="#FFFFE0" />
+
+		<Button
+			android:paddingRight="10dp"
+			android:id="@+id/water"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="1dp"
+			android:background="@drawable/shape2"
+			android:text="水印"
+			android:textColor="#FFFFE0" />
+
+		<Button
+			android:paddingRight="10dp"
 		    android:id="@+id/encrypt"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
@@ -77,15 +98,16 @@
 		    android:textColor="#FFFFE0" />
 
 		<Button
+			android:paddingRight="10dp"
 		    android:id="@+id/decrypt"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
-		    android:layout_marginLeft="1dp"
 		    android:background="@drawable/shape2"
 		    android:text="解密"
 		    android:textColor="#FFFFE0" />
 		
 			<Button
+				android:paddingRight="10dp"
 		    android:id="@+id/noise"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"
@@ -94,6 +116,7 @@
 		    android:text="噪声"
 		    android:textColor="#FFFFE0" />
 			<Button
+				android:paddingRight="10dp"
 		    android:id="@+id/barchart"
 		    android:layout_width="wrap_content"
 		    android:layout_height="wrap_content"

@@ -4,5 +4,10 @@
     <string name="app_name">PicEncrypt</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_select_pic">上传图片</string>
+    <string name="no_sd_card">内存卡不存在</string>
+    <string name="chose_imagefile_error">选择图片文件不正确</string>
+    <string name="no_camera_power">没有摄像头权限</string>
+    <string name="no_choosed_pic">没有选中图片</string>
 
 </resources>
